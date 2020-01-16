@@ -1,32 +1,36 @@
-.App {
-  text-align: center;
+a:link, a:visited {
+  color: #ed462f;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.2s
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a:hover, a:active {
+  color: white;
+  background-color: #ed462f;
+  box-shadow: 0 1rem 2rem rgba(black, 4);
+  transform: rotate(5deg) scale(1.2);
+  padding: 2px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.jumbotron{
+  background-color:#151515
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.header-main-title{
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.search-character-button{
+  background-color: #ed462f;
 }
+
+#characterMainTitle, #comicMainTitle {
+  color: white;
+}
+.card{
+  border:none;
+  border-radius: 2px;
+}
+
 
 @keyframes App-logo-spin {
   from {
